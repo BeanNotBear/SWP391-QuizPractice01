@@ -1,0 +1,36 @@
+.user-form-section {
+        padding: 20px 0;
+    }
+    .user-form .form-group {
+        margin-bottom: 15px;
+    }
+    .user-form .form-group label {
+        font-weight: bold;
+    }
+    .user-form .form-control {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .user-form .btn {
+        margin-right: 10px;
+    }
+    .image-container {
+        text-align: center;
+        padding: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+    .image-container img:hover {
+        transform: scale(1.05);
+    }
+    
+    .buttons-inline {
+    display: flex;
+    justify-content: start;
+    gap: 10px; /* Adjust the gap as needed */
+}

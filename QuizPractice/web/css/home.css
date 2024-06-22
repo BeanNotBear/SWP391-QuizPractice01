@@ -1,0 +1,127 @@
+.custom-carousel {
+    height: 250px;
+}
+
+.custom-carousel .carousel-inner > .item > img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover; /* This will maintain aspect ratio and cover the container */
+}
+
+
+.fixed-size-img {
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+
+.card {
+    margin-bottom: 30px; /* Increased bottom margin for more space between cards */
+}
+
+
+/* View all lên đối diện h1 */
+.courses-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.courses-header .heading {
+    margin: 0;
+}
+
+.inline-option-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.inline-option-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Blog*/
+/* Custom CSS */
+.blog-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.blog-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-card .card-body {
+    padding: 20px;
+}
+
+.blog-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.blog-card .post-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog-header .heading {
+    margin: 0;
+}
+
+.inline-option-btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.inline-option-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Hover cho course image*/
+.subject-img {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.subject-img:hover {
+    transform: scale(1.1);
+}

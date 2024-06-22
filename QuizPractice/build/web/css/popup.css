@@ -1,0 +1,107 @@
+.login-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+/*    display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    position: relative;
+}
+
+#cancel-login {
+    position: absolute;
+    top: 5rem;
+    left: 48rem;
+    font-size: 30px;
+}
+
+#cancel-login:hover {
+    cursor: pointer;
+}
+
+#register-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    /*display: block;*/
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+#cancel-register {
+    position: absolute;
+    top: 3rem;
+    left: 81rem;
+    font-size: 30px;
+}
+
+#cancel-register:hover {
+    cursor: pointer;
+}
+/*profile-popup*/
+.profile-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    /*display: block;*/
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+#cancel-profile {
+    position: absolute;
+    top: 3rem;
+    left: 81rem;
+    font-size: 30px;
+}
+
+#cancel-profile:hover {
+    cursor: pointer;
+}
+
+.change-password-popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    /*display: block;*/
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+#cancel-change-password{
+    position: absolute;
+    top: 3rem;
+    left: 81rem;
+    font-size: 30px;
+}
+
+#cancel-change-password:hover {
+    cursor: pointer;
+}
